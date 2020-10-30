@@ -94,7 +94,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "uniqCompNum": 41,
+    "uniqCompNum": 43,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-Y0CH90T8FJ\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-Y0CH90T8FJ');\n</script>"
@@ -669,7 +669,7 @@
           },
           "_name": "extHeader33",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"!fullWidth\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"100\" step=\"5\" value=\"100\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showSubtitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffffff\" condition=\"showUnderline&&showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <select title=\"Paragraphs Count\" name=\"paragraphsCount\" condition=\"showText\">\n             <option value=\"1\">1</option>\n             <option value=\"2\" selected>2</option>\n        </select>  \n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid': fullWidth,\n                     'container': !fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"image-element\" mbr-class=\"{'col-xl-5': !fullWidth,\n                             'col-xl-6': fullWidth}\">\n                <div class=\"img-wrap\" mbr-style=\"{'height': mediaSize + '%',\n                                 'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/mbr-1900x1069.jpg\" alt>\n                </div>\n            </div>\n            <div class=\"text-element\" mbr-class=\"{'col-xl-5': !fullWidth,\n                             'col-xl-6': fullWidth}\" mbr-if=\"showTitle || showSubtitle || showText ||showButtons\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-lighter mbr-white\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .underline\">\n                    Lorem ipsum\n                </h3>\n                <div class=\"underline pb-3\" mbr-if=\"showUnderline&&showSubtitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <div class=\"title pb-4\">\n                    <span class=\"mbr-fonts-style mbr-white mbr-section-title\" mbr-text mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".title, .mbr-section-title\">\n                    Why you should care about&nbsp;</span>\n                    <span class=\"brown mbr-fonts-style\" mbr-text mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".title, .brown\">Victims of Karabakh?</span>\n                </div>\n                <div class=\"paragraphs-wrapper pb-4\" mbr-if=\"showText\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-lighter\" mbr-class=\"{'first-paragraph': paragraphsCount == 2}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        In 1988, Armenia laid a territorial claim to Nagorno-Karabakh, then an autonomous province within Azerbaijan. The flaring up conflict soon engulfed both countries eventually leading to a full-scale war in the early 1990s. As a result, 20% of Azerbaijan’s lands were occupied by Armenia, which was condemned by the UN Security Council in 4 of its Resolutions. Armenia rejected to comply with them and its armed forces carried out ethnic cleansing displacing over half a million of Azerbaijanis and committed a series of grave war crimes.&nbsp;Most of these atrocities against the civilian population of Azerbaijan and occupation of its lands, however, went either unnoticed or underreported by the international community. </p>\n                    <p class=\"second-paragraph mbr-text mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-7\" mbr-if=\"paragraphsCount == 2\" data-app-selector=\".mbr-text, .mbr-section-btn\">The lack of firm condemnation condoned Armenia to continue its aggression against Azerbaijan and keep under occupation its lands. With the recent reignition of the war since September 27, emboldened by the silence of the international community, Armenia has been targeting Azerbaijan’s civilian population. Several towns and settlements lying outside the conflict zone have been shelled by Armenia via long-range missiles, which have put an end to lives of over 80 civilians. The international outcry is necessary to force Armenia to stop targeting the peaceful population and bring it to justice for the war crimes and avoid repetition of crimes in the future.\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\"><a class=\"btn btn-lg btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">ABOUT US</a></div>\n            </div>\n        </div>\n    </div>          \n</section>",
+          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"!fullWidth\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"100\" step=\"5\" value=\"100\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showSubtitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffffff\" condition=\"showUnderline&&showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <select title=\"Paragraphs Count\" name=\"paragraphsCount\" condition=\"showText\">\n             <option value=\"1\" selected>1</option>\n             <option value=\"2\">2</option>\n        </select>  \n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid': fullWidth,\n                     'container': !fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"image-element\" mbr-class=\"{'col-xl-5': !fullWidth,\n                             'col-xl-6': fullWidth}\">\n                <div class=\"img-wrap\" mbr-style=\"{'height': mediaSize + '%',\n                                 'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/mbr-1900x1069.jpg\" alt>\n                </div>\n            </div>\n            <div class=\"text-element\" mbr-class=\"{'col-xl-5': !fullWidth,\n                             'col-xl-6': fullWidth}\" mbr-if=\"showTitle || showSubtitle || showText ||showButtons\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-lighter mbr-white\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .underline\">\n                    Lorem ipsum\n                </h3>\n                <div class=\"underline pb-3\" mbr-if=\"showUnderline&&showSubtitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <div class=\"title pb-4\">\n                    <span class=\"mbr-fonts-style mbr-white mbr-section-title\" mbr-text mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".title, .mbr-section-title\">\n                    Why you should care about&nbsp;</span>\n                    <span class=\"brown mbr-fonts-style\" mbr-text mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".title, .brown\">Victims of Karabakh?</span>\n                </div>\n                <div class=\"paragraphs-wrapper pb-4\" mbr-if=\"showText\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-lighter\" mbr-class=\"{'first-paragraph': paragraphsCount == 2}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        In 1988, Armenia laid a territorial claim to Nagorno-Karabakh, then an autonomous province within Azerbaijan. The flaring up conflict soon engulfed both countries eventually leading to a full-scale war in the early 1990s. As a result, 20% of Azerbaijan’s lands were occupied by Armenia, which was condemned by the UN Security Council in 4 of its Resolutions. Armenia rejected to comply with them and its armed forces carried out ethnic cleansing displacing over half a million of Azerbaijanis and committed a series of grave war crimes.&nbsp;Most of these atrocities against the civilian population of Azerbaijan and occupation of its lands, however, went either<br>unnoticed or underreported by the international community.&nbsp;<br><br>The lack of firm condemnation condoned Armenia to continue its aggression against Azerbaijan and keep under occupation its lands. With the recent reignition of the war since September 27, emboldened by the silence of the international community, Armenia has been targeting Azerbaijan’s civilian population. Several towns and settlements lying outside the conflict zone have been shelled by Armenia via long-range missiles, which have put an end to lives of over 80 civilians. The international outcry is necessary to force Armenia to stop targeting the peaceful population and bring it to justice for the war crimes and avoid repetition of crimes in the future.<br></p>\n                    <p class=\"second-paragraph mbr-text mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-7\" mbr-if=\"paragraphsCount == 2\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\"><a class=\"btn btn-lg btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">ABOUT US</a></div>\n            </div>\n        </div>\n    </div>          \n</section>",
           "_cid": "sePYRiC5Lg",
           "_anchor": "extHeader33-x",
           "_protectedParams": [],
@@ -785,51 +785,119 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text": {
+            "overflow": "hidden",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".carousel": {
+              "z-index": "2",
               "position": "relative"
             },
-            ".mbr-text:before": {
-              "color": "@quotesColor",
-              "content": "\"\\201C\"",
-              "font-size": "3em",
-              "line-height": "0.1em",
-              "margin-right": "0.2em",
-              "vertical-align": "-0.4em",
-              "position": "absolute",
-              "top": "10px",
-              "left": "-2rem"
+            ".user": {
+              "padding": "0!important"
             },
-            "img": {
-              "object-fit": "contain"
+            ".big-icon": {
+              "top": "1rem",
+              "font-size": "12rem",
+              "transform": "translate(-50%, -50%)",
+              "z-index": "0",
+              "color": "@IconColor",
+              "opacity": "0.5"
             },
-            ".mbr-text:after": {
-              "color": "@quotesColor",
-              "content": "\"\\201D\"",
-              "font-size": "3em",
-              "line-height": "0.1em",
-              "vertical-align": "-0.45em",
-              "position": "absolute",
-              "bottom": "10px",
-              "right": "-2rem"
+            ".mbr-iconfont": {
+              "font-family": "Moririse2!important"
+            },
+            ".carousel-item.active, .carousel-item-next, .carousel-item-prev": {
+              "display": "flex"
+            },
+            ".user_name": {
+              "margin": "0"
+            },
+            ".carousel-controls": {
+              "a": {
+                "font-size": "2rem",
+                "span": {
+                  "position": "absolute",
+                  "transition": "opacity 0.3s",
+                  "top": "70px",
+                  "padding": "10px",
+                  "border-radius": "50%",
+                  "color": "@color",
+                  "background": "transparent",
+                  "opacity": "0.5"
+                },
+                "&:hover": {
+                  "span": {
+                    "opacity": "1",
+                    "cursor": "pointer"
+                  }
+                }
+              }
+            },
+            "ol": {
+              "margin-bottom": "0",
+              "bottom": "-3rem"
+            },
+            ".carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "auto 7px",
+              "border": "none",
+              "background": "@color",
+              "transition": "all 0.3s",
+              "border-radius": "50%",
+              "opacity": "0.5",
+              "&:hover": {
+                "opacity": "1"
+              }
+            },
+            ".carousel-indicators .active": {
+              "opacity": "1",
+              "width": "10px",
+              "height": "10px"
+            },
+            ".user_text": {
+              "color": "#232323",
+              "text-align": "left"
+            },
+            ".user_desk": {
+              "color": "#767676"
+            },
+            ".user_desk, .carousel-item": {
+              "text-align": "left"
+            },
+            ".carousel-indicators": {
+              "margin": "0",
+              "margin-left": "0.5rem",
+              "justify-content": "flex-start !important"
             },
             "@media (max-width: 767px)": {
-              ".mbr-text:after, .mbr-text:before": {
-                "display": "none"
+              ".carousel-indicators": {
+                "margin": "auto",
+                "justify-content": "center!important"
               }
+            },
+            ".carousel-control-next": {
+              "right": "-30px",
+              "transform": "translateX(50%)"
+            },
+            ".carousel-control-prev": {
+              "left": "-30px",
+              "transform": "translateX(-50%)"
             }
           },
-          "_name": "extContent16",
+          "_name": "extTestimonials6",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"mbr-section extContent\" group=\"Additional Blocks\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Quotes Color\" name=\"quotesColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f0f0f0\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <div class=\"logo align-center\" mbr-class=\"{'pb-5': !showTitle,\n                                 'pb-3': showTitle}\" mbr-if=\"showLogo\">\n                    \n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-1684x1920.png\" alt=\"Mobirise\" mbr-style=\"{'height': '10rem'}\">\n                    \n                </div>\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center pb-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title, .logo\" mbr-if=\"showTitle\"><b>To memory of Karabakh Victims</b></h3>\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Before Khojali, the Azerbaijanis thought that they were joking with us, they thought that the Armenians were people who could not<b> raise their hand against the civilian population.</b> We were able to break that [stereotype]. And that’s what happened</p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "seJFcSB8XB",
-          "_anchor": "extContent16-i",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
+          "_customHTML": "<section class=\"carouse2 slide testimonials-slider\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider, mobirise-icons2\" data-interval=\"false\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Padding Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" inline>\n        <input type=\"range\" title=\"Padding Bottom\" name=\"paddingBottom\" min=\"5\" max=\"10\" step=\"1\" value=\"5\" inline>\n        <input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Author Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Show Author Title\" name=\"showDesk\" checked>\n        <input type=\"color\" title=\"Controls Color\" name=\"color\" value=\"#f0f0f0\" selected>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"color\" title=\"Icon Color\" name=\"IconColor\" value=\"#ffb5b5\" selected>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#f0f0f0\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container text-left\">\n\n        <div class=\"row\">\n\n            <div class=\"col-lg-3 align-center\">\n\n                <span mbr-icon class=\"mbr-iconfont big-icon mobi-mbri-quote-right mobi-mbri\"></span>\n\n            </div>\n\n            <div class=\"col-lg-9\">\n\n                <div class=\"carousel slide\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <div mbr-list mbr-list-grow=\"testimonialsSlides\" class=\"carousel-inner\">\n                        <div class=\"carousel-item\">\n                            <div class=\"user col-md-12\">\n                                <h2 class=\"pb-4 title mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".title, .line-align\">\n                                    Testimonials</h2>\n                                <div class=\"user_text pb-3\">\n                                    <p class=\"mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".user_text\">The firing of cluster munitions into civilian areas is cruel and reckless, and causes untold death, injury and misery. Cluster munitions are inherently indiscriminate weapons, and their use in any circumstances is banned under international humanitarian law.</p>\n                                </div>\n                                <p mbr-text class=\"user_name align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".user_desk, .carousel-item\">Marie Struthers</p>\n                                <p mbr-text class=\"user_status align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesk\" data-app-selector=\".user_desk\">Amnesty International’s Regional Director for Eastern Europe and Central Asia.</p>\n                            </div>\n                        </div>\n\n                        \n                        \n                    </div>\n\n                    <ol class=\"carousel-indicators\">\n                        <li data-app-prevent-settings data-target=\"#slider1\" class=\" active\" data-slide-to=\"0\" mbr-if=\"testimonialsSlides > 0\"></li>\n                        <li data-app-prevent-settings data-target=\"#slider1\" data-slide-to=\"1\" mbr-if=\"testimonialsSlides > 1\">\n                        </li>\n                        <li data-app-prevent-settings data-target=\"#slider1\" data-slide-to=\"2\" mbr-if=\"testimonialsSlides > 2\">\n                        </li>\n                        <li data-app-prevent-settings data-target=\"#slider1\" data-slide-to=\"3\" mbr-if=\"testimonialsSlides > 3\">\n                        </li>\n                        <li data-app-prevent-settings data-target=\"#slider1\" data-slide-to=\"4\" mbr-if=\"testimonialsSlides > 4\">\n                        </li>\n                        <li data-app-prevent-settings data-target=\"#slider1\" data-slide-to=\"5\" mbr-if=\"testimonialsSlides > 5\">\n                        </li>\n                        <li data-app-prevent-settings data-target=\"#slider1\" data-slide-to=\"6\" mbr-if=\"testimonialsSlides > 6\">\n                        </li>\n                        <li data-app-prevent-settings data-target=\"#slider1\" data-slide-to=\"7\" mbr-if=\"testimonialsSlides > 7\">\n                        </li>\n                        <li data-app-prevent-settings data-target=\"#slider1\" data-slide-to=\"8\" mbr-if=\"testimonialsSlides > 8\">\n                        </li>\n                        <li data-app-prevent-settings data-target=\"#slider1\" data-slide-to=\"9\" mbr-if=\"testimonialsSlides > 9\">\n                        </li>\n                    </ol>\n\n\n\n                    <div class=\"carousel-controls\" mbr-if=\"showArrow\">\n                        <a class=\"carousel-control-prev\" role=\"button\" data-slide=\"prev\">\n                            <span aria-hidden=\"true\" class=\"mbri-arrow-prev mbr-iconfont\"></span>\n                            <span class=\"sr-only\">Previous</span>\n                        </a>\n\n                        <a class=\"carousel-control-next\" role=\"button\" data-slide=\"next\">\n                            <span aria-hidden=\"true\" class=\"mbri-arrow-next mbr-iconfont\"></span>\n                            <span class=\"sr-only\">Next</span>\n                        </a>\n                    </div>\n\n\n                </div>\n\n            </div>\n\n\n\n\n\n\n\n        </div>\n    </div>\n</section>",
+          "_cid": "seWqaz04DN",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "extTestimonials6-16"
         },
         {
           "_params": {
